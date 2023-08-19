@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<p class="topic">html</p>
+<p class="topic">css</p>
+<p class="topic">bs</p>
+<p class="topic">js</p>
+<ul>
+	<li>aec</li>
+	<li>acet</li>
+</ul>
+<h1>hii</h1>
+<div>div</div>
+<script type="text/javascript">
+	// let a=document.getElementsByClassName('topic');
+	// console.log(a);
+	// a[0].innerHTML='hyper text mark up language';
+	// a[2].innerHTML='bootstrap';
+	// let b=document.getElementsByTagName('li');
+	// console.log(b)
+	// b[1].innerText = 'aditya collage of engineering and techanology';
+
+	// let a=document.querySelector('.topic');//class selector     //querySelector change only first  one  
+	// a.innerHTML='<span>hyper</span>'
+	// let b=document.querySelector('li');//tag selector
+	// b.innerText='<span>aditya</span>'
+
+
+
+//if we want to use multiple elements we can use querySelectorAll
+
+	let bb=document.querySelectorAll('h1,div,p');
+	for(let i=0;i<bb.length;i++){
+	bb[i].style.color='yellow';
+}
+</script>
+
+</body>
+</html>
